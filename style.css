@@ -1,0 +1,195 @@
+/* .navbar-fixed {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+.brand-logo {
+   margin-left: 1.5em;
+}
+
+
+#btn-login {
+    margin-top: 15px;
+    border-radius: 4px;
+    border-style: solid;
+    margin-right: 1.5em;
+}
+
+#home {
+    margin-top: 3.5em;
+    margin-left: 2em;
+    
+  
+}
+
+#intro {
+    font-weight: 600;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 1.3rem;
+    font-family: Helvetica,Arial,sans-serif;
+    position: relative;
+    margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 600px) {
+    #home { 
+        font-size: 1.3rem;
+        margin-bottom: 4%;
+    }
+  }
+/* @media only screen and (max-width: 670px) {
+    body{
+        min-height: 400px;
+    } */
+span {
+    display: inline-block;
+    margin-left: 21px;
+    display: block;
+    font-weight: 600;
+}
+
+i {
+    float: left;
+    
+}
+
+#btn-header{
+    margin-top: 2em;
+    border-radius: 5px;
+    margin-left: 2em;
+}
+
+#object {
+    animation: MoveUpDown 3s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding-top: 2em;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 25px;
+    }
+  }
+
+  #productive {
+    /* pa-top: 3em; */
+    background-color:#e4f9f5 ;
+
+  }
+
+  #pro-header {
+      padding-top: 2em;
+  }
+
+  #card-prod  {
+    margin-left: 5%;
+    margin-top:  5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: 300px;
+    border-radius: 5px;
+    padding: 3%, 7%, 3%, 7%;
+    background: white;
+    letter-spacing: .5px;
+    
+    
+  }
+
+  #image {
+      padding-top: 20px;
+      padding-left: 20px;
+      width: 20%;
+
+  }
+
+  #heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 22px;
+    /* padding: 3%, 3px, 3% 3px; */
+    margin-left: 3%;
+  }
+
+  #headingp {
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+    padding-right: 3%;
+    display: block;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+
+  #lectures{
+    margin-top: 3rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    
+  }
+
+  #collection{
+    margin-top: 4rem;
+    background-color:#e4f9f5;
+    padding-top: 4em;
+    padding-bottom: 4rem;
+    margin-bottom: 0rem;
+  }
+
+  #collect {
+    padding-left: 11em;
+  }
+
+  #btn-header1{
+    margin-top: 2em;
+    border-radius: 5px;
+    margin-left: 5em;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: teal;
+    text: white;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#footerp {
+  padding-top: 1em;
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: white;
+}
+
+.foot{
+  padding-left: 6em;
+  background-image: linear-gradient(to right, #013220  , #00695c);
+  
+}
+
+.footer-copyright {
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+  /* @media only screen and (max-width: 820px) {
+#pro-cards {
+    background: #b8daff;
+    height: auto;
+    margin: 0;
+}
+  } */
